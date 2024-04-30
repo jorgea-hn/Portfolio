@@ -2,6 +2,7 @@
   "name": "myportfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jorgea-hn.github.io/Portfolio.github.io/react-github-pages/dist",
   "type": "module",
   "scripts": {
     "dev": "vite",
