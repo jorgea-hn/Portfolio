@@ -47,13 +47,13 @@ const Proyectos: React.FC = () => {
             <div className="flex flex-col md:flex-row justify-around mt-8">
                 <div className="flex flex-col items-center md:w-1/2">
                     <h3 className="text-center">Proyectos Web</h3>
-                    {projectsWeb.map((project, index) => (
+                    {projectsWeb.map((project) => (
                         <Card key={project.title} project={project} />
                     ))}
                 </div>
                 <div className="flex flex-col items-center md:w-1/2">
                     <h3 className="text-center">Proyectos de Data</h3>
-                    {projectsDatos.map((project, index) => (
+                    {projectsDatos.map((project) => (
                         <Card key={project.title} project={project} />
                     ))}
                 </div>
