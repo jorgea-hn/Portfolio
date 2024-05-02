@@ -45,8 +45,8 @@ const Navbar: React.FC = () => {
                         </div>
                     )}
                     <div className="hidden md:flex">
-                        <a href="https://github.com/jorgea-hn"><img src={github} alt="icon-github" className="w-8 ml-4" /></a>
-                        <a href="https://www.linkedin.com/in/jorge-henriquez-novoa/"><img src={linkedin} alt="icon-linkedin" className="w-8 ml-4 mr-8"/></a>
+                        <a href="https://github.com/jorgea-hn"><img src={github} alt="icon-github" className="w-8 ml-4 rounded-full hover:bg-gray-300"/></a>
+                        <a href="https://www.linkedin.com/in/jorge-henriquez-novoa/"><img src={linkedin} alt="icon-linkedin" className="w-8 ml-4 mr-8 rounded-full hover:bg-gray-300"/></a>
                     </div>
                 </div>
             </div>

@@ -63,28 +63,28 @@ const Skill: React.FC = () => {
 
     return (
         <div id="skill" className="bg-gray-200 min-h-screen flex flex-col ">
-            <h3 className="font-bold text-center pt-16">Skill</h3>
-            <div className="flex flex-wrap md:w-full lg:w-2/5 md:px-8 mx-auto">
+            <h3 className="text-xl md:text-2xl lg:text-3xl text-center pt-16">Skill</h3>
+            <div className="flex flex-wrap w-full md:w-full lg:w-2/5 md:px-8 mx-auto md:px-0 px-5">
                 {skillUx.map((skill, index) => (
                     <CardSkill key={index} skill={skill} />
                 ))}
             </div>
 
             <div className="flex flex-wrap justify-around">
-                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start">
+                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start md:px-0 px-5">
                     {skillWeb.map((skill, index) => (
                         <CardSkill key={index} skill={skill} />
                     ))}
                 </div>
 
-                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start">
+                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start md:px-0 px-5">
                     {skillData.map((skill, index) => (
                         <CardSkill key={index} skill={skill} />
                     ))}
                 </div>
             </div>
 
-            <div className="flex flex-wrap md:w-full lg:w-2/5 md:px-8 mx-auto">
+            <div className="flex flex-wrap w-full md:w-full lg:w-2/5 md:px-8 mx-auto md:px-0 px-5">
                 {skillExtra.map((skill, index) => (
                     <CardSkill key={index} skill={skill} />
                 ))}

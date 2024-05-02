@@ -43,16 +43,16 @@ const Proyectos: React.FC = () => {
 
     return (
         <div id="proyectos" className="bg-gray-300 min-h-screen ">
-            <h3 className="font-bold text-center pt-16">Proyectos</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl text-center pt-16">Proyectos</h3>
             <div className="flex flex-col md:flex-row justify-around mt-8">
-                <div className="flex flex-col items-center md:w-1/2">
-                    <h3 className="text-center">Proyectos Web</h3>
+                <div className="flex flex-col items-center md:w-1/2 md:px-0 px-5">
+                    <h3 className="text-lg md:text-lg lg:text-xl text-center pb-5">Proyectos Web</h3>
                     {projectsWeb.map((project) => (
                         <Card key={project.title} project={project} />
                     ))}
                 </div>
-                <div className="flex flex-col items-center md:w-1/2">
-                    <h3 className="text-center">Proyectos de Data</h3>
+                <div className="flex flex-col items-center md:w-1/2 md:px-0 px-5">
+                    <h3 className="text-lg md:text-lg lg:text-xl text-center pb-5">Proyectos de Data</h3>
                     {projectsDatos.map((project) => (
                         <Card key={project.title} project={project} />
                     ))}
