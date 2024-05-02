@@ -44,28 +44,23 @@ const Proyectos: React.FC = () => {
     return (
         <div id="proyectos" className="bg-gray-300 min-h-screen ">
             <h3 className="font-bold text-center pt-16">Proyectos</h3>
-            <div className="flex justify-around mt-8">
-                <div className="flex flex-col items-center flex-grow">
+            <div className="flex flex-col md:flex-row justify-around mt-8">
+                <div className="flex flex-col items-center md:w-1/2">
                     <h3 className="text-center">Proyectos Web</h3>
-                    {projectsWeb.map((project,index) => (
-                        <div key={project.title} className={`flex flex-col items-center ${index === projectsWeb.length - 1 ? 'mb-20' : ''}` } > 
-                        <Card project={project} />
-                        </div>
+                    {projectsWeb.map((project, index) => (
+                        <Card key={project.title} project={project} />
                     ))}
                 </div>
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center md:w-1/2">
                     <h3 className="text-center">Proyectos de Data</h3>
-                    {projectsDatos.map((project,index) => (
-                        <div key={project.title} className={`flex flex-col items-center ${index === projectsDatos.length - 1 ? 'mb-20' : ''}` } > 
-                        <Card project={project} />
-                        </div>
+                    {projectsDatos.map((project, index) => (
+                        <Card key={project.title} project={project} />
                     ))}
                 </div>
             </div>
-
-
         </div>
     )
 }
+
 
 export default Proyectos

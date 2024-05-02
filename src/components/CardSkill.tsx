@@ -11,7 +11,7 @@ const CardSkill: React.FC<SkillProps> = ({ skill }) => {
 
     return (
         <div className="bg-slate-950 p-5 rounded-md my-8 w-full">
-            <div className="flex justify-between">
+            <div className="flex flex-wrap justify-between">
                 {skill.images.map((image, index) => (
                     <div key={index} className="flex items-center mb-2">
                         <div className="flex flex-col items-center">

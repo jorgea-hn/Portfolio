@@ -64,27 +64,27 @@ const Skill: React.FC = () => {
     return (
         <div id="skill" className="bg-gray-200 min-h-screen flex flex-col ">
             <h3 className="font-bold text-center pt-16">Skill</h3>
-            <div className="flex w-2/5 mx-auto">
+            <div className="flex flex-wrap md:w-full lg:w-2/5 md:px-8 mx-auto">
                 {skillUx.map((skill, index) => (
                     <CardSkill key={index} skill={skill} />
                 ))}
             </div>
 
-            <div className="flex justify-between">
-                <div className="w-2/5 mx-auto">
+            <div className="flex flex-wrap justify-around">
+                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start">
                     {skillWeb.map((skill, index) => (
                         <CardSkill key={index} skill={skill} />
                     ))}
                 </div>
 
-                <div className="w-2/5 mx-auto">
+                <div className="w-full md:w-full lg:w-2/5 md:px-8 flex justify-center lg:justify-start">
                     {skillData.map((skill, index) => (
                         <CardSkill key={index} skill={skill} />
                     ))}
                 </div>
             </div>
 
-            <div className="flex w-2/5 mx-auto">
+            <div className="flex flex-wrap md:w-full lg:w-2/5 md:px-8 mx-auto">
                 {skillExtra.map((skill, index) => (
                     <CardSkill key={index} skill={skill} />
                 ))}
