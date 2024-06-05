@@ -8,12 +8,9 @@ const Descripcion: React.FC = () => {
             <div className="flex flex-col md:flex-row justify-center md:justify-around items-center my-9 px-4">
                 <div className="md:w-2/5 py-8">
                     <h4 className="my-2 text-cente md:text-left">Soy Ingeniero Electronico, me gusta encontrar soluciones</h4>
-                    <p className="text-justify">En pandemia me perfile por el area de desarrollo y analisis, actualmente cuento con experiencia tanto en el area de desarrollo backend y frontend como en el area de analisis de datos.
-                        Vivo en Colombia, me gusta el arte y el gym, disfruto probar cosas nuevas y diferentes, con el fin de mostrar algo innovador, que solucione un problema de la sociedad.
-                        Considero que estoy en el mundo con el fin de dejar una marca, ya sea a nivel profesional o a nivel personal.
-                        Me gusta hacer las cosas bien y correctas, soy imparcial y justo.
-                        Siempre estoy dispuesto a ayudar y a aprender
-                        Si tienes alguna duda no dudes en escribirme al correo o a hablarme por linkedin </p>
+                    <p className="text-justify">Soy Ingeniero Electrónico, me gusta encontrar soluciones
+                        En pandemia me perfile por el área de desarrollo y análisis, actualmente cuento con experiencia tanto en el área de desarrollo Backend y Frontend como en el área de análisis de datos. Vivo en Colombia, me gusta el arte y el gym, disfruto probar cosas nuevas y diferentes, con el fin de mostrar algo innovador, que solucione un problema de la sociedad. Considero que estoy en el mundo con el fin de dejar una marca, ya sea a nivel profesional o a nivel personal. Me gusta hacer las cosas bien y correctas, soy imparcial y justo. Siempre estoy dispuesto a ayudar y a aprender Si tienes alguna duda no dudes en escribirme al correo o a hablarme por LinkedIn.
+                    </p>
                 </div>
                 <div className="mt-6 md:mt-0 mb-18">
                     <img src={logo} alt="" />
