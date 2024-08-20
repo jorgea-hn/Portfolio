@@ -16,7 +16,7 @@ const Proyectos: React.FC = () => {
             description: "Desarrollo de un proyecto web para la adopción de árboles en Argentina, incentivando la reforestación. La plataforma permite adoptar árboles, seguir su crecimiento y aprender sobre la importancia de la conservación ambiental.",
             technology: ["React", "Django", "PostgreSQL"],
             repository: "https://github.com/No-Country/s12-20-m-python",
-            url:"",
+            url:"https://guardianesdelbosque.onrender.com",
         },
         {
             title: "Página de gestión de proyectos",
@@ -31,7 +31,14 @@ const Proyectos: React.FC = () => {
             technology: ["HTML", "CSS", "JavaScript"],
             repository: "https://github.com/No-Country/c13-38-ft-python",
             url:"https://jorgea-hn.github.io/Calculadora_JS.github.io/",
-        }
+        },
+        {
+            title: "Pagina de guarderia infantil",
+            description: "Proyecto de pagina web para una guarderia con el fin de mostrar y promocionar los servicios con conexion a firebase para almacenar los datos.",
+            technology: ["React", "TypeScript", "Tailwinds", "Firebase"],
+            repository: "https://github.com/jorgea-hn/PaginaGuarderia",
+            url:"https://pagina-guarderia.vercel.app/",
+        },
     ]
 
     const projectsDatos: Project[] = [
@@ -48,7 +55,21 @@ const Proyectos: React.FC = () => {
             technology: ["Python", "SQL", "Streamlit", "Pandas"],
             repository: "https://github.com/No-Country/s13-25-n-data-bi",
             url:"",
-        }
+        },
+        {
+            title: "DeRabona: Análisis Predictivo de Rendimiento Deportivo y Pronósticos de Partidos",
+            description: "Desarrollo de una web app que permite seguir una liga específica con fechas de partidos y probabilidades de victoria, empate o derrota de cada equipo, ofreciendo a los aficionados al fútbol una visión estratégica y precisa.",
+            technology: ["Python", "SQL", "Streamlit", "Pandas","Seaborn", "Matplotlib","Numpy"],
+            repository: "https://github.com/marco11235813/Proyecto-Rendimiento-Deportivo-Nc",
+            url:"",
+        },
+        {
+            title: "Sistema de Recomendación Nutricional para Personas con Diabetes (Healthtech)",
+            description: "Desarrollo de un sistema de recomendación nutricional para personas con diabetes, que usa datos personalizados y machine learning para generar planes alimenticios y analizar productos, mejorando la calidad de vida de los usuarios.",
+            technology: ["Python", "SQL", "Streamlit","Pandas","PowerBI","Rackspace"],
+            repository: "https://github.com/No-Country-simulation/s16-19-ft-data-bi",
+            url:"https://diabeat-healthcare.streamlit.app/",
+        },
     ]
 
     return (
