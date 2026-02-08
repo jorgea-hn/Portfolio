@@ -6,4 +6,5 @@ const nextConfig: NextConfig = {
     },
 };
 
+// Deployment trigger: 2026-02-08
 export default nextConfig;
